@@ -23,3 +23,33 @@ body {
     color: rgb(255, 130, 182);
     text-decoration:none;
 }
+
+.titulo-destaque {
+    color: rgb(220, 43, 226);
+}
+.conteudo {
+    height: auto;
+    flex-direction: column;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.apresentacao-conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    gap: 40px;
+    order: 2;
+}
+
+.apresentacao-conteudo-titulo {
+    font-size: 36%;
+    font-family:cursive;
+
+}
